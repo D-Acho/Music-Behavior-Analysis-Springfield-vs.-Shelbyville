@@ -1,34 +1,38 @@
-# 🎵 Music Behavior Analysis: Springfield vs. Shelbyville
+# 🎧 Music Behavior Analysis: Springfield vs. Shelbyville
 
 ## 📌 Overview
-This project analyzes user behavior in online music streaming across two cities—Springfield and Shelbyville. The goal is to extract actionable insights and test hypotheses about user activity patterns.
+This project is a hands-on introduction to data analysis using Python and pandas. The main goal is to build fluency navigating dataframes through basic commands and simple loops.
 
 ## 🎯 Objective
-To evaluate the hypothesis:
-User activity differs by day of the week and city.
+Evaluate the hypothesis: User activity varies depending on the city and the day of the week.
 
-## 🧪 Project Stages
-Data Description Overview and initial exploration of the dataset.
+## 📚 Educational Focus
+* Basic dataframe navigation
+* Use of `for` loops and methods like `.groupby()`, `.unique()`, `.dropna()`
+* Application of conditional logic for exploratory analysis
 
-* Data Preprocessing
+🔍 Data Exploration
+Initial review of the dataset to understand its structure.
 
+🧹 Data Preprocessing
 * Header formatting
-
 * Handling missing values
-
 * Removing duplicates
+* Standardizing musical genre names
 
-* Standardizing genre names
+📊 Hypothesis Testing
+* Comparing user activity by gender and city
+* Evaluating listening patterns by day of the week
 
-* Hypothesis Testing
+🛠️ Tools
+`Pandas`
 
-* Comparing male and female user activity across cities
+Environment: Jupyter Notebook
 
-* Evaluating behavioral differences by day of the week
+✅ Findings
+📍 User activity does vary by city: Springfield represents 69.7% of all streams.
 
-## 📊 Tools Used
-Python (pandas, matplotlib)
+📅 No clear pattern based on the day of the week: Shelbyville peaks on Wednesdays, but Springfield remains steady.
 
-Jupyter Notebook
-
-## 📝 Conclusions
+🎓 Conclusion
+This project helps reinforce skills in pandas and basic looping logic while exploring real-world music data. The analysis shows that location influences user behavior, but day of the week is not a consistent factor.
